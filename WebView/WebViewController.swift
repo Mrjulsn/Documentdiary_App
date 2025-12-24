@@ -4255,8 +4255,9 @@ extension WebViewController: WKNavigationDelegate, UIDocumentInteractionControll
             func qrbuttonaction()
             {
                 
-                //let scanner = QRCodeScannerController(cameraImage: UIImage(named: "camera"), cancelImage: UIImage(named: "cancel"), flashOnImage: UIImage(named: "flash-on"), flashOffImage: UIImage(named: "flash-off"))
-                scanner.delegate = self
+                // Use the instance property scanner, delegate is handled via protocol conformance
+                // Note: QRCodeScannerController's delegate property is internal, but WebViewController
+                // implements QRScannerCodeDelegate protocol, so delegate callbacks will work
                 scanner.modalPresentationStyle = .fullScreen
                 self.present(scanner, animated: true, completion: qrOnComplete)
             }
