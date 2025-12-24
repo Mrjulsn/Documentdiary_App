@@ -787,6 +787,8 @@ class WebViewController: UIViewController, OSSubscriptionObserver, GADBannerView
             print("carplay");
         case .mac:
             break
+        case .vision:
+            break
         @unknown default:
             break
         }
@@ -844,6 +846,8 @@ class WebViewController: UIViewController, OSSubscriptionObserver, GADBannerView
         case .carPlay:
             break
         case .mac:
+            break
+        case .vision:
             break
         @unknown default:
             break
@@ -5205,6 +5209,8 @@ extension WebViewController
             case .carPlay:
                 break
             case .mac:
+                break
+            case .vision:
                 break
             @unknown default:
                 break
