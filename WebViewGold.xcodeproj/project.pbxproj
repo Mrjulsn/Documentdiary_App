@@ -761,7 +761,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = K5VVT29R5R;
+				DEVELOPMENT_TEAM = S3C3K89KGM;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -789,7 +789,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K5VVT29R5R;
+				DEVELOPMENT_TEAM = S3C3K89KGM;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
