@@ -12,8 +12,6 @@
 		04FCA893242E1ED200867141 /* SplashscreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCA892242E1ED200867141 /* SplashscreenVC.swift */; };
 		04FCA895242E1FDD00867141 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCA894242E1FDD00867141 /* iOSDevCenters+GIF.swift */; };
 		04FCA897242E201F00867141 /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04FCA896242E201F00867141 /* splash.gif */; };
-		AD1B959865634F93BDAF28FA /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B959865634F93BDAF28FB /* splash.png */; };
-		AD1B959865634F93BDAF28FC /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B959865634F93BDAF28FD /* splash@2x.png */; };
 		09D5A2E22B64126300888DD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D5A2E12B64126300888DD8 /* GoogleService-Info.plist */; };
 		1813F804259A59200063DAC3 /* OneSignalNotificationServiceExtension copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1813F803259A59200063DAC3 /* OneSignalNotificationServiceExtension copy-Info.plist */; };
 		18806FAE259748030001101F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18806FAD259748030001101F /* StoreKit.framework */; };
@@ -74,6 +72,8 @@
 		8171D20C1F6B096F00AA7B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171D20B1F6B096F00AA7B99 /* AppDelegate.swift */; };
 		8171D20E1F6B096F00AA7B99 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171D20D1F6B096F00AA7B99 /* WebViewController.swift */; };
 		9B88244A2826B5DC00299A99 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 9B8824492826B5DC00299A99 /* Zip */; };
+		AD1B959865634F93BDAF28FA /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B959865634F93BDAF28FB /* splash.png */; };
+		AD1B959865634F93BDAF28FC /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1B959865634F93BDAF28FD /* splash@2x.png */; };
 		E715B8ED297116E700A91C7B /* example.html in Resources */ = {isa = PBXBuildFile; fileRef = E715B8EC297116E600A91C7B /* example.html */; };
 		E715B8EF297116F500A91C7B /* images in Resources */ = {isa = PBXBuildFile; fileRef = E715B8EE297116F500A91C7B /* images */; };
 /* End PBXBuildFile section */
@@ -118,8 +118,6 @@
 		04FCA892242E1ED200867141 /* SplashscreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashscreenVC.swift; sourceTree = "<group>"; };
 		04FCA894242E1FDD00867141 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		04FCA896242E201F00867141 /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash.gif; sourceTree = "<group>"; };
-		AD1B959865634F93BDAF28FB /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
-		AD1B959865634F93BDAF28FD /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
 		09D5A2E12B64126300888DD8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1725EF0321B0207300A6B42D /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 		1813F803259A59200063DAC3 /* OneSignalNotificationServiceExtension copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OneSignalNotificationServiceExtension copy-Info.plist"; sourceTree = "<group>"; };
@@ -187,13 +185,15 @@
 		7F920E0C205C1DDC0036A7ED /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		7F920E0F205C247A0036A7ED /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		7F920E11205C27600036A7ED /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		8171D2081F6B096F00AA7B99 /* WebViewGold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewGold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8171D2081F6B096F00AA7B99 /* DocumentDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8171D20B1F6B096F00AA7B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8171D20D1F6B096F00AA7B99 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8171D2101F6B096F00AA7B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8171D2121F6B096F00AA7B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8171D2151F6B096F00AA7B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8171D2171F6B096F00AA7B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WebView/Info.plist; sourceTree = SOURCE_ROOT; };
+		AD1B959865634F93BDAF28FB /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		AD1B959865634F93BDAF28FD /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
 		B619AE8194CE647B02956741 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D216D34ACB6C227F888EA641 /* Pods-WebViewGold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewGold.release.xcconfig"; path = "Target Support Files/Pods-WebViewGold/Pods-WebViewGold.release.xcconfig"; sourceTree = "<group>"; };
 		E715B8EC297116E600A91C7B /* example.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example.html; sourceTree = "<group>"; };
@@ -360,7 +360,7 @@
 		8171D2091F6B096F00AA7B99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8171D2081F6B096F00AA7B99 /* WebViewGold.app */,
+				8171D2081F6B096F00AA7B99 /* DocumentDiary.app */,
 				4574400420B890A000E6336E /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
@@ -449,7 +449,7 @@
 				9B8824492826B5DC00299A99 /* Zip */,
 			);
 			productName = WebView;
-			productReference = 8171D2081F6B096F00AA7B99 /* WebViewGold.app */;
+			productReference = 8171D2081F6B096F00AA7B99 /* DocumentDiary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

@@ -107,3 +107,4 @@ Der Build schlägt in Xcode Cloud mit Exit Code 70 während des Archive-Exports 
 - Stil: Automatic
 - Provisioning Profile: Automatic (leer = automatisch)
 
+
